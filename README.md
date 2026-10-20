@@ -28,7 +28,7 @@ executable. No emulator runs the game, and no PlayStation BIOS is needed.
 - [Project layout](#project-layout)
 - [Troubleshooting](#troubleshooting)
 - [Status](#status)
-- [Legal](#legal)
+- [License and legal](#license-and-legal)
 
 ## Why you need your own copy
 
@@ -83,8 +83,8 @@ Requirements: [Python 3.8+](https://www.python.org/downloads/) and about 1 GB of
 space for the compiler. (On Windows the command may be `py` instead of `python`.)
 
 ```bat
-git clone <this repository's URL> hmbtn-native
-cd hmbtn-native
+git clone https://github.com/GabrielBigardi/HarvestMoonBTN-Recomp.git
+cd HarvestMoonBTN-Recomp
 python tools\fetch_deps.py
 python build.py
 ```
@@ -105,8 +105,8 @@ sudo apt install build-essential python3 libsdl2-dev      # Debian / Ubuntu
 sudo dnf install gcc python3 SDL2-devel                   # Fedora
 sudo pacman -S base-devel python sdl2                     # Arch
 
-git clone <this repository's URL> hmbtn-native
-cd hmbtn-native
+git clone https://github.com/GabrielBigardi/HarvestMoonBTN-Recomp.git
+cd HarvestMoonBTN-Recomp
 python3 build.py
 ```
 
@@ -266,6 +266,7 @@ runtime/              the native PlayStation hardware + BIOS reimplementation, f
   tests/              unit tests (GTE, GPU, SPU, memory card file system)
 dist-template/        hmbtn.ini, README.txt and licence text copied into each build
 docs/TECHNICAL.md     internals
+LICENSE               MIT license for this port's source code
 ```
 
 Created locally and ignored by git: `deps/` (toolchain), `extract/`, `generated/`,
@@ -293,9 +294,15 @@ house, town and map, menus and tools, music and sound effects, saving and loadin
 random-input runs without errors. The festivals and minigames are recompiled like the rest
 of the game but haven't been played through extensively yet. The Linux version builds
 (natively or cross-compiled) but has had less testing than the Windows version. Bug
-reports are welcome; please attach `HarvestMoonBTN.log`.
+reports are welcome in the [issue tracker](https://github.com/GabrielBigardi/HarvestMoonBTN-Recomp/issues); please attach `HarvestMoonBTN.log`.
 
-## Legal
+## License and legal
+
+The source code in this repository (the recompiler, the runtime and the scripts) is released
+under the [MIT License](LICENSE). The license covers only this port's own code. It grants no
+rights to *Harvest Moon: Back to Nature*, and it does not cover what the build generates from
+your disc (the extracted files, the translated game code, the executable and the data pack),
+which is derived from the game.
 
 This is an unofficial fan project, not affiliated with or endorsed by Marvelous Inc.,
 Natsume Inc., Victor Interactive Software or Sony Interactive Entertainment. *Harvest
