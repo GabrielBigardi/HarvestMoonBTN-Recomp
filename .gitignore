@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------------------
+# NOTHING FROM THE GAME MAY BE COMMITTED. Everything below that comes from a disc is
+# created locally by build.py from the user's own copy.
+# ---------------------------------------------------------------------------------------
+
+# your disc image (keep only the instructions file)
+/disc/*
+!/disc/README.md
+
+# game files read from the disc, and the game code recompiled from them
+/extract/
+/generated/
+
+# build output: executables contain the recompiled game code, the data pack the game data
+/build/
+/dist/
+
+# any disc images / data packs / game files, wherever they are
+*.bin
+*.cue
+*.iso
+*.img
+*.chd
+*.pbp
+*.ecm
+*.pak
+*.mcd
+*.mcr
+SLUS_*
+A_FILE.*
+*.XA
+*.STR
+
+# downloaded toolchains (tools/fetch_deps.py)
+/deps/
+
+# local notes / research scripts
+/scratch/
+
+# runtime output and logs
+saves/
+screenshots/
+*.log
+*.wav
+*.bmp
+*.exe
+*.dll
+*.o
+*.obj
+
+# Python
+__pycache__/
+*.pyc

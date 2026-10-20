@@ -1,0 +1,93 @@
+[
+ {
+  "name": "DEBUG",
+  "file": 8,
+  "base": "800B7E20",
+  "code_lo": "800B8014",
+  "code_hi": "800B8500"
+ },
+ {
+  "name": "PdaSamp",
+  "file": 10,
+  "base": "800B7E20",
+  "code_lo": "800B889C",
+  "code_hi": "800BB7BC"
+ },
+ {
+  "name": "GF_FARM",
+  "file": 11,
+  "base": "800B7E20",
+  "code_lo": "800BBC34",
+  "code_hi": "80121780"
+ },
+ {
+  "name": "saveload",
+  "file": 15,
+  "base": "8012DDE8",
+  "code_lo": "8012E15C",
+  "code_hi": "80137584"
+ },
+ {
+  "name": "GF_MG1",
+  "file": 17,
+  "base": "800B7E20",
+  "code_lo": "800B7E38",
+  "code_hi": "800BB454"
+ },
+ {
+  "name": "GF_MG2",
+  "file": 19,
+  "base": "800B7E20",
+  "code_lo": "800B7ED8",
+  "code_hi": "800BBD74"
+ },
+ {
+  "name": "GF_MG3",
+  "file": 21,
+  "base": "800B7E20",
+  "code_lo": "800B7E3C",
+  "code_hi": "800BBA84"
+ },
+ {
+  "name": "GF_MG4",
+  "file": 23,
+  "base": "800B7E20",
+  "code_lo": "800B7EA4",
+  "code_hi": "800BB860"
+ },
+ {
+  "name": "GF_MG5",
+  "file": 25,
+  "base": "800B7E20",
+  "code_lo": "800B7EB4",
+  "code_hi": "800BBB40"
+ },
+ {
+  "name": "GF_TITLE",
+  "file": 27,
+  "base": "800B7E20",
+  "code_lo": "800B7EEC",
+  "code_hi": "800BAC60"
+ },
+ {
+  "name": "GF_STAFF",
+  "file": 28,
+  "base": "800B7E20",
+  "code_lo": "800B7E24",
+  "code_hi": "800B936C"
+ },
+ {
+  "name": "GF_swind",
+  "file": 30,
+  "base": "8012DDE8",
+  "code_lo": "8012EFEC",
+  "code_hi": "80133F70"
+ },
+ {
+  "name": "gf_mcard",
+  "file": 31,
+  "base": "800B7E20",
+  "code_lo": "800B7FCC",
+  "code_hi": "800B87F0"
+ }
+]

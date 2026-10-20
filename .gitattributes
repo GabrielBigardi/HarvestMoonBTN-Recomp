@@ -1,0 +1,11 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+# player-facing files open in Notepad on Windows
+dist-template/*.txt text eol=crlf
+dist-template/*.ini text eol=crlf
+*.png binary
