@@ -49,8 +49,9 @@ build, and is excluded from git by [`.gitignore`](.gitignore):
 
 This is also why there are **no ready-made downloads**: a pre-built executable would
 contain the game's program code (translated, but still the game's), and the data pack would
-contain the game's data. The build turns your copy into the native version in a few
-minutes, on your own machine. Please don't share your build output or your data pack.
+contain the game's data. Instead, one command turns your copy into the native version on
+your own machine, usually in under a minute. Please don't share your build output or your
+data pack.
 
 ## Bring your own copy
 
@@ -129,7 +130,8 @@ python build.py [--disc PATH] [--pak] [--zip] [--linux] [--debug] [--jobs N] [--
 | `--jobs N` | number of parallel compiler processes (default: all CPU cores) |
 | `--clean` | rebuild everything from scratch |
 
-A full build takes a few minutes. Later builds only redo the steps whose inputs changed.
+A full build takes under a minute on a modern PC; later builds only redo the steps whose
+inputs changed.
 
 ## Playing
 
